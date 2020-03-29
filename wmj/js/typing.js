@@ -44,7 +44,7 @@ var selfSnowParam = {
     snowSpeed:5//值为number
 };
 var selfSnowParam1 = {
-    snowNum:200,//值为number
+    snowNum:100,//值为number
     snowSpeed:8//值为number
 };
 //5.调用
@@ -68,12 +68,12 @@ final(selfSnowParam,'.');
     str = 			"亲爱的汪缪缪："
 			+"\n"+	"	我们已经认识   天了"
 			+"\n"+	"	我一直有句话憋在心里想和你说："
-			+"\n"+	"	我喜欢你,但是"
+			+"\n"+	"	其实,我暗恋你很久了,但是"
 			+"\n"+	"	我们以后还是不要一起玩了"
 			+"\n"+	"	因为";
 	strl=			"	我有点尿急要去上个厕所"
 			+"\n"+	"	哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
-			+"\n"+	"	哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+			+"\n"+	"	哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈";
   function typing () 
   {
     if (i <= str.length) {
@@ -83,7 +83,8 @@ final(selfSnowParam,'.');
     else 
 	{
 		divTyping.innerHTML = str+strl;
-		final(selfSnowParam1,'哈')
+		final(selfSnowParam1,'哈');
+		setTimeout(fool, 1000);//间隔时间
 		clearTimeout(timer);
     }
   }
@@ -96,4 +97,4 @@ final(selfSnowParam,'.');
   }
 
   typing();
-  setTimeout(fool, 25000);//间隔时间
+  
