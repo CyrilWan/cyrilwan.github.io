@@ -6,10 +6,25 @@
 #  - index.md
 #  - about.md
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: 'CopyRight 2020 Ramón_Wan <br/> 由强大的Jekyll引擎驱动'
 
-#style: light # dark (default) or light
+style: dark
 #listen_for_clients_preferred_style: true # true or false (default)
-
+# Site settings
+title: My Blog                     
+#你博客的标题
+SEOTitle: Ramón的博客 | My Blog        
+#显示在浏览器上搜索的时候显示的标题
+header-img: img/post-bg-rwd.jpg     
+#显示在首页的背景图片
+#email:
+description: "My Blog"              
+#网站介绍
+keyword: "RamonWan ramonwan Ramon_Wan Ramón_Wan" 
+#关键词
+url: "https://ramonwan.github.io"          
+# 这个就是填写你的博客地址
+baseurl: ""      
+github_username: Ramon_Wan
 plugins:
   - jekyll-seo-tag
