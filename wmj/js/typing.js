@@ -66,10 +66,10 @@ final(selfSnowParam,'.');
     timer = 0,
 	//输出文字
     str = 			"亲爱的汪缪缪："
-			+"\n"+	"	我们已经认识   天了"
-			+"\n"+	"	我一直有句话憋在心里想和你说："
+			+"\n"+	"	我们已经认识快两年了"
+			+"\n"+	"	一直有句话憋在心里想和你说："
 			+"\n"+	"	其实,我暗恋你很久了,但是"
-			+"\n"+	"	我们以后还是不要一起玩了"
+			+"\n"+	"	我们以后还是不要再见面了"
 			+"\n"+	"	因为";
 	strl=			"	我有点尿急要去上个厕所"
 			+"\n"+	"	哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
@@ -83,8 +83,8 @@ final(selfSnowParam,'.');
     else 
 	{
 		divTyping.innerHTML = str+strl;
-		final(selfSnowParam1,'哈');
-		setTimeout(fool, 1000);//间隔时间
+		setTimeout(final(selfSnowParam1,'哈'),1000);
+		setTimeout(fool, 2000);//间隔时间
 		clearTimeout(timer);
     }
   }
