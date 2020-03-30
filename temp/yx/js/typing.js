@@ -78,7 +78,7 @@ final(selfSnowParam,'.');
   {
     if (i <= str.length) {
 		divTyping.innerHTML = str.slice(0, i++) + '_';//添加光标
-		timer = setTimeout(typing, 300);//间隔时间
+		timer = setTimeout(typing, 500);//间隔时间
     }
     else 
 	{
